@@ -271,8 +271,8 @@
         </blockquote>
       </div>
 
-      <!-- Formulario Directo (Reemplazá 'TU_FORM_ID_AQUI' con tu ID de Formspree) -->
-      <form class="review-form" action="https://formspree.io/f/TU_FORM_ID_AQUI" method="POST">
+      <!-- Formulario Directo (Reemplazá 'mrppbwlo' con tu ID de Formspree) -->
+      <form class="review-form" action="https://formspree.io/f/mrppbwlo" method="POST">
         <p style="font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">¿Leíste el libro? Dejá tu reseña:</p>
         <input type="text" name="nombre" placeholder="Tu nombre o apodo" required>
         <textarea name="mensaje" rows="4" placeholder="¿Qué imágenes o emociones te dejó la lectura?" required></textarea>
