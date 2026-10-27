@@ -2805,9 +2805,11 @@ footer {
     <p class="voces-inv-cuerpo">
       Esta sección crece con cada lector. Si ya tenés el libro en tus manos, me encantaría saber qué te dejó — una línea, una imagen, lo que sea.
     </p>
-    <a href="mailto:roxanan.saucedo@gmail.com?subject=Mi%20reseña%20de%20Ahogándome%20en%20palabras" class="voces-inv-btn">
-      Dejar mi reseña &rarr;
-    </a>
+   <form action="https://formspree.io/f/xbjnqwwl" method="POST" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+  <input type="text" name="nombre" placeholder="Tu nombre / apodo" required style="padding: 0.8rem; border: 1px solid var(--gris-linea, #ccc); background: transparent; font-family: inherit;">
+  <textarea name="mensaje" placeholder="Tu reseña o comentario..." rows="4" required style="padding: 0.8rem; border: 1px solid var(--gris-linea, #ccc); background: transparent; font-family: inherit; resize: vertical;"></textarea>
+  <button type="submit" class="voces-inv-btn" style="cursor: pointer; text-align: center;">Enviar reseña &rarr;</button>
+</form>
     <p class="voces-inv-nota">Te escribo de vuelta. Las reseñas que reciba van apareciendo acá.</p>
   </div>
 
